@@ -1,4 +1,4 @@
 ARG VERSION
-FROM almalinux:{$VERSION:-9}
+FROM almalinux:${VERSION:-9}
 
 CMD ["sleep","700"]
